@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trade Panel — Development Status (Sanitized)</title>
+<meta name="description" content="Sanitized, read-only development-status dashboard for Trade Panel. Not a live trading or performance view.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div class="brand-text">
+        <h1>Trade Panel</h1>
+        <p class="brand-sub">Development status · sanitized · not live trading data</p>
+      </div>
+    </div>
+    <div id="freshness" class="freshness" role="status" aria-live="polite" aria-atomic="true">
+      <span class="freshness-dot" aria-hidden="true"></span>
+      <span class="freshness-text">Loading…</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="panel" aria-labelledby="active-heading">
+    <h2 id="active-heading">Active Task</h2>
+    <div id="active-task" class="active-task" aria-live="polite">
+      <p class="muted">Loading active task…</p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="overall-heading">
+    <h2 id="overall-heading">Master Checklist Progress</h2>
+    <p class="section-note">27 authoritative items. Operational dashboard work is tracked separately above.</p>
+    <div id="overall-counts" class="counts-row" aria-live="polite">
+      <p class="muted">Loading overall progress…</p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="controls-heading">
+    <h2 id="controls-heading" class="visually-hidden">Filter and search tasks</h2>
+    <div class="controls">
+      <div class="search-wrap">
+        <label for="search-input">Search tasks</label>
+        <input type="search" id="search-input" placeholder="Search by task id or title…" autocomplete="off">
+      </div>
+      <fieldset class="status-filters">
+        <legend>Filter by status</legend>
+        <div class="filter-chip-row" id="status-filter-row">
+          <!-- buttons injected by app.js -->
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="hierarchy-heading">
+    <h2 id="hierarchy-heading">Missions, Phases &amp; Tasks</h2>
+    <div id="mission-list" class="mission-list">
+      <p class="muted">Loading checklist hierarchy…</p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="evidence-heading">
+    <h2 id="evidence-heading">Verified Evidence &amp; Checkpoint</h2>
+    <div id="evidence" class="evidence-grid">
+      <p class="muted">Loading evidence…</p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="timeline-heading">
+    <h2 id="timeline-heading">Activity Timeline</h2>
+    <ol id="timeline-list" class="timeline-list">
+      <li class="muted">Loading activity timeline…</li>
+    </ol>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Sanitized operational view, not proof of live trading readiness or performance. Updated automatically from a same-origin status feed.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,474 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "Trade Panel \u2014 Development Status (Sanitized)",
+  "visibility": "public-sanitized",
+  "generatedAt": "2026-10-21T19:52:39Z",
+  "staleAfterSeconds": 3600,
+  "offlineAfterSeconds": 21600,
+  "sourceCheckpoint": "1c8cbbe64ad34baf6770bda9605fbac2ae73deba",
+  "overall": {
+    "ongoing": 0,
+    "pending": 22,
+    "blocked": 0,
+    "failed": 0,
+    "skipped": 0,
+    "passed": 5,
+    "total": 27
+  },
+  "missions": [
+    {
+      "id": "M1",
+      "title": "Baseline & Validation",
+      "summary": "Establish a reproducible working baseline and validate data/timestamp handling before strategy work proceeds.",
+      "phases": [
+        {
+          "id": "P1-1",
+          "title": "Environment & Backup Audit",
+          "counts": {
+            "ongoing": 0,
+            "pending": 1,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 3,
+            "total": 4
+          },
+          "tasks": [
+            {
+              "id": "T01",
+              "title": "Baseline backup verification",
+              "status": "PASSED",
+              "updatedAt": "2026-10-21T19:42:18Z"
+            },
+            {
+              "id": "T02",
+              "title": "Service connectivity check",
+              "status": "PASSED",
+              "updatedAt": "2026-10-21T19:42:18Z"
+            },
+            {
+              "id": "T03",
+              "title": "Diagnostic instrumentation review",
+              "status": "PASSED",
+              "updatedAt": "2026-10-21T19:42:18Z"
+            },
+            {
+              "id": "T04",
+              "title": "Working-tree baseline audit",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P1-2",
+          "title": "Data & Timestamp Validation",
+          "counts": {
+            "ongoing": 0,
+            "pending": 1,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 2,
+            "total": 3
+          },
+          "tasks": [
+            {
+              "id": "T05",
+              "title": "Timestamp & session calendar verification",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T06",
+              "title": "Closed-candle evaluation safeguard",
+              "status": "PASSED",
+              "updatedAt": "2026-10-21T19:42:19Z"
+            },
+            {
+              "id": "T07",
+              "title": "Historical data validation",
+              "status": "PASSED",
+              "updatedAt": "2026-10-21T19:42:19Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "title": "Strategy Integration",
+      "summary": "Replace placeholder signal logic with the agreed reference implementation and correct execution semantics.",
+      "phases": [
+        {
+          "id": "P2-1",
+          "title": "Indicator & Signal Logic",
+          "counts": {
+            "ongoing": 0,
+            "pending": 3,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 3
+          },
+          "tasks": [
+            {
+              "id": "T08",
+              "title": "Indicator algorithm correctness",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T09",
+              "title": "Indicator definition correction",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T10",
+              "title": "Entry trigger definition",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P2-2",
+          "title": "Execution Semantics",
+          "counts": {
+            "ongoing": 0,
+            "pending": 3,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 3
+          },
+          "tasks": [
+            {
+              "id": "T11",
+              "title": "Execution price & stop semantics",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T12",
+              "title": "Support/resistance clear-path rule",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T13",
+              "title": "Setup score normalization",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "title": "Risk Integration",
+      "summary": "Capital safety validation, signal history persistence, and operational reliability.",
+      "phases": [
+        {
+          "id": "P3-1",
+          "title": "Capital & Risk Validation",
+          "counts": {
+            "ongoing": 0,
+            "pending": 1,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 1
+          },
+          "tasks": [
+            {
+              "id": "T14",
+              "title": "Capital safety validation",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P3-2",
+          "title": "Signal History & Persistence",
+          "counts": {
+            "ongoing": 0,
+            "pending": 6,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 6
+          },
+          "tasks": [
+            {
+              "id": "T15",
+              "title": "Signal history schema design",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T16",
+              "title": "Signal history persistence",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T17",
+              "title": "Signal history API",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T18",
+              "title": "Signal history dashboard view",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T19",
+              "title": "Manual decision linkage",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T20",
+              "title": "Database migration & recovery testing",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P3-3",
+          "title": "Operational Reliability",
+          "counts": {
+            "ongoing": 0,
+            "pending": 2,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 2
+          },
+          "tasks": [
+            {
+              "id": "T21",
+              "title": "Rate-limit & cancellation investigation",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T22",
+              "title": "Offline test & replay suite",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P3-4",
+          "title": "Validation & Hardening",
+          "counts": {
+            "ongoing": 0,
+            "pending": 3,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 3
+          },
+          "tasks": [
+            {
+              "id": "T23",
+              "title": "Realistic strategy replay validation",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T24",
+              "title": "Authentication & exposure hardening",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T27",
+              "title": "Paper-trading end-to-end validation",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "title": "Public Dashboard Preparation",
+      "summary": "Operational monitoring, release documentation, and the sanitized public status dashboard itself.",
+      "phases": [
+        {
+          "id": "P4-1",
+          "title": "Monitoring & Release Readiness",
+          "counts": {
+            "ongoing": 0,
+            "pending": 2,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 2
+          },
+          "tasks": [
+            {
+              "id": "T25",
+              "title": "Operational monitoring & alerts",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            },
+            {
+              "id": "T26",
+              "title": "Documentation, versioning & release",
+              "status": "PENDING",
+              "updatedAt": "2026-10-21T19:52:39Z"
+            }
+          ]
+        },
+        {
+          "id": "P4-2",
+          "title": "Dashboard Build",
+          "counts": {
+            "ongoing": 1,
+            "pending": 0,
+            "blocked": 0,
+            "failed": 0,
+            "skipped": 0,
+            "passed": 0,
+            "total": 1
+          },
+          "tasks": [
+            {
+              "id": "DASH-01",
+              "title": "Public status dashboard build",
+              "status": "ONGOING",
+              "updatedAt": "2026-10-21T19:52:26Z",
+              "summary": "Initial public publication authorized."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "TEST-401",
+      "label": "401 deterministic offline checks passed",
+      "note": "Historical verified checkpoint.",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "TEST-100",
+      "label": "100 strategy-reference checks passed",
+      "note": "Historical verified checkpoint.",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "DASH-VALIDATION",
+      "label": "Dashboard validation suite passed",
+      "note": "87 publisher and privacy checks, 10 frontend checks, and 3 responsive viewport checks.",
+      "date": "2026-10-21"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2026-10-21T19:52:26Z",
+      "taskId": "DASH-01",
+      "status": "ONGOING",
+      "event": "Initial public publication authorized."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:20Z",
+      "taskId": "DASH-01",
+      "status": "BLOCKED",
+      "event": "Awaiting owner publishing authorization."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:19Z",
+      "taskId": "T06",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:19Z",
+      "taskId": "T06",
+      "status": "PASSED",
+      "event": "Status changed to PASSED."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:19Z",
+      "taskId": "T07",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:19Z",
+      "taskId": "T07",
+      "status": "PASSED",
+      "event": "Status changed to PASSED."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:19Z",
+      "taskId": "DASH-01",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:18Z",
+      "taskId": "T01",
+      "status": "PASSED",
+      "event": "Status changed to PASSED."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:18Z",
+      "taskId": "T02",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:18Z",
+      "taskId": "T02",
+      "status": "PASSED",
+      "event": "Status changed to PASSED."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:18Z",
+      "taskId": "T03",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:18Z",
+      "taskId": "T03",
+      "status": "PASSED",
+      "event": "Status changed to PASSED."
+    },
+    {
+      "timestamp": "2026-10-21T19:42:17Z",
+      "taskId": "T01",
+      "status": "ONGOING",
+      "event": "Status changed to ONGOING."
+    }
+  ],
+  "active": {
+    "taskId": "DASH-01",
+    "title": "Public status dashboard build",
+    "status": "ONGOING",
+    "model": "Jarvis orchestration",
+    "since": "2026-10-21T19:52:26Z"
+  }
+}
