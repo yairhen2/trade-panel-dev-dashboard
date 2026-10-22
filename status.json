@@ -2,18 +2,18 @@
   "schemaVersion": "1.0.0",
   "project": "Trade Panel \u2014 Development Status (Sanitized)",
   "visibility": "public-sanitized",
-  "generatedAt": "2026-10-21T20:13:59Z",
+  "generatedAt": "2026-10-22T03:41:59Z",
   "staleAfterSeconds": 3600,
   "offlineAfterSeconds": 21600,
   "sourceCheckpoint": "1c8cbbe64ad34baf6770bda9605fbac2ae73deba",
   "overall": {
-    "skipped": 0,
-    "total": 27,
-    "passed": 5,
-    "blocked": 0,
-    "ongoing": 0,
     "failed": 0,
-    "pending": 22
+    "blocked": 0,
+    "total": 27,
+    "skipped": 0,
+    "pending": 22,
+    "ongoing": 0,
+    "passed": 5
   },
   "missions": [
     {
@@ -25,13 +25,13 @@
           "id": "P1-1",
           "title": "Environment & Backup Audit",
           "counts": {
-            "skipped": 0,
-            "total": 4,
-            "passed": 3,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 1
+            "blocked": 0,
+            "total": 4,
+            "skipped": 0,
+            "pending": 1,
+            "ongoing": 0,
+            "passed": 3
           },
           "tasks": [
             {
@@ -56,7 +56,7 @@
               "id": "T04",
               "title": "Working-tree baseline audit",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -64,20 +64,20 @@
           "id": "P1-2",
           "title": "Data & Timestamp Validation",
           "counts": {
-            "skipped": 0,
-            "total": 3,
-            "passed": 2,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 1
+            "blocked": 0,
+            "total": 3,
+            "skipped": 0,
+            "pending": 1,
+            "ongoing": 0,
+            "passed": 2
           },
           "tasks": [
             {
               "id": "T05",
               "title": "Timestamp & session calendar verification",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T06",
@@ -104,32 +104,32 @@
           "id": "P2-1",
           "title": "Indicator & Signal Logic",
           "counts": {
-            "skipped": 0,
-            "total": 3,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 3
+            "blocked": 0,
+            "total": 3,
+            "skipped": 0,
+            "pending": 3,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T08",
               "title": "Indicator algorithm correctness",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T09",
               "title": "Indicator definition correction",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T10",
               "title": "Entry trigger definition",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -137,32 +137,32 @@
           "id": "P2-2",
           "title": "Execution Semantics",
           "counts": {
-            "skipped": 0,
-            "total": 3,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 3
+            "blocked": 0,
+            "total": 3,
+            "skipped": 0,
+            "pending": 3,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T11",
               "title": "Execution price & stop semantics",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T12",
               "title": "Support/resistance clear-path rule",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T13",
               "title": "Setup score normalization",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         }
@@ -177,20 +177,20 @@
           "id": "P3-1",
           "title": "Capital & Risk Validation",
           "counts": {
-            "skipped": 0,
-            "total": 1,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 1
+            "blocked": 0,
+            "total": 1,
+            "skipped": 0,
+            "pending": 1,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T14",
               "title": "Capital safety validation",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -198,50 +198,50 @@
           "id": "P3-2",
           "title": "Signal History & Persistence",
           "counts": {
-            "skipped": 0,
-            "total": 6,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 6
+            "blocked": 0,
+            "total": 6,
+            "skipped": 0,
+            "pending": 6,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T15",
               "title": "Signal history schema design",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T16",
               "title": "Signal history persistence",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T17",
               "title": "Signal history API",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T18",
               "title": "Signal history dashboard view",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T19",
               "title": "Manual decision linkage",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T20",
               "title": "Database migration & recovery testing",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -249,26 +249,26 @@
           "id": "P3-3",
           "title": "Operational Reliability",
           "counts": {
-            "skipped": 0,
-            "total": 2,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 2
+            "blocked": 0,
+            "total": 2,
+            "skipped": 0,
+            "pending": 2,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T21",
               "title": "Rate-limit & cancellation investigation",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T22",
               "title": "Offline test & replay suite",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -276,32 +276,32 @@
           "id": "P3-4",
           "title": "Validation & Hardening",
           "counts": {
-            "skipped": 0,
-            "total": 3,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 3
+            "blocked": 0,
+            "total": 3,
+            "skipped": 0,
+            "pending": 3,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T23",
               "title": "Realistic strategy replay validation",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T24",
               "title": "Authentication & exposure hardening",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T27",
               "title": "Paper-trading end-to-end validation",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         }
@@ -316,26 +316,26 @@
           "id": "P4-1",
           "title": "Monitoring & Release Readiness",
           "counts": {
-            "skipped": 0,
-            "total": 2,
-            "passed": 0,
-            "blocked": 0,
-            "ongoing": 0,
             "failed": 0,
-            "pending": 2
+            "blocked": 0,
+            "total": 2,
+            "skipped": 0,
+            "pending": 2,
+            "ongoing": 0,
+            "passed": 0
           },
           "tasks": [
             {
               "id": "T25",
               "title": "Operational monitoring & alerts",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             },
             {
               "id": "T26",
               "title": "Documentation, versioning & release",
               "status": "PENDING",
-              "updatedAt": "2026-10-21T20:13:59Z"
+              "updatedAt": "2026-10-22T03:41:59Z"
             }
           ]
         },
@@ -343,13 +343,13 @@
           "id": "P4-2",
           "title": "Dashboard Build",
           "counts": {
-            "skipped": 0,
-            "total": 2,
-            "passed": 1,
-            "blocked": 0,
-            "ongoing": 1,
             "failed": 0,
-            "pending": 0
+            "blocked": 0,
+            "total": 2,
+            "skipped": 0,
+            "pending": 0,
+            "ongoing": 0,
+            "passed": 2
           },
           "tasks": [
             {
@@ -362,9 +362,9 @@
             {
               "id": "AUTO-01",
               "title": "Automatic status publishing",
-              "status": "ONGOING",
-              "updatedAt": "2026-10-21T20:13:59Z",
-              "summary": "Controlled automatic publisher verification started."
+              "status": "PASSED",
+              "updatedAt": "2026-10-22T03:41:59Z",
+              "summary": "Automatic status publishing and recovery verification completed."
             }
           ]
         }
@@ -395,9 +395,21 @@
       "label": "Public deployment verification passed",
       "note": "Eight reviewed files matched the published content.",
       "date": "2026-10-21"
+    },
+    {
+      "id": "AUTO-PUBLISH-VERIFICATION",
+      "label": "97 publisher, recovery, privacy and Git-scope checks passed",
+      "note": "Controlled live publication and restart reconciliation verified.",
+      "date": "2026-10-22"
     }
   ],
   "timeline": [
+    {
+      "timestamp": "2026-10-22T03:41:59Z",
+      "taskId": "AUTO-01",
+      "status": "PASSED",
+      "event": "Automatic status publishing and recovery verification completed."
+    },
     {
       "timestamp": "2026-10-21T20:13:59Z",
       "taskId": "AUTO-01",
@@ -492,8 +504,8 @@
   "active": {
     "taskId": "AUTO-01",
     "title": "Automatic status publishing",
-    "status": "ONGOING",
+    "status": "PASSED",
     "model": "openai/gpt-5.6-sol",
-    "since": "2026-10-21T20:13:59Z"
+    "since": "2026-10-22T03:41:59Z"
   }
 }
